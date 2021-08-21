@@ -309,7 +309,8 @@
 						</div>
 					</div>
 					<div class="column right">
-						<!--div class="text">Message me</div>
+						<!--
+						<div class="text">Message me</div>
 						<form class="contact-form" action="message1.php" method="POST">
 							<div class="fields">
 								<div class="field name">
@@ -329,7 +330,8 @@
 								<button class="send-msg" type="submit" name="send">Send message</button>
 								<div class="error-box"></div>
 							</div>
-						</form-->
+      						</form>
+						-->
 						<div class="text">Message me</div>
 						<form class="contact-form" action="https://formspree.io/f/xleanzdp" method="POST">
 						<!--form class="contact-form" action="https://mailthis.to/shravs" method="POST"-->
