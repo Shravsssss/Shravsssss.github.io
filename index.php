@@ -11,7 +11,7 @@
 	
 	<body>
 		<div class="scroll-up-btn">
-			<a href="#"><i class="fas fa-angle-up"></a></i>
+			<a href="#"><i class="fas fa-angle-up"></i></a>
 		</div>
 		<nav class="navbar">
 			<div class="max-width">
