@@ -309,7 +309,7 @@
 						</div>
 					</div>
 					<div class="column right">
-						<div class="text">Message me</div>
+						<!--div class="text">Message me</div>
 						<form class="contact-form" action="message1.php" method="POST">
 							<div class="fields">
 								<div class="field name">
@@ -329,6 +329,29 @@
 								<button class="send-msg" type="submit" name="send">Send message</button>
 								<div class="error-box"></div>
 							</div>
+						</form-->
+						<div class="text">Message me</div>
+						<form class="contact-form" action="https://formspree.io/f/xleanzdp" method="POST">
+						<!--form class="contact-form" action="https://mailthis.to/shravs" method="POST"-->
+							<div class="fields">
+								<div class="field name">
+									<input type="text" class="fullname" name="name" placeholder="Name">
+								</div>
+								<div class="field email">
+									<input type="text" class="email-input" name="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="field">
+								<input type="text" class="subject" name="subject" placeholder="Subject">
+							</div>
+							<div class="field textarea">
+								<textarea class="message" cols="30" rows="10" name="message" placeholder="Message.."></textarea>
+							</div>
+							<div class="button-area">
+								<button class="send-msg" type="submit" name="send">Send message</button>
+								<div class="error-box"></div>
+							</div>
+												
 						</form>
 					</div>
 				</div>
@@ -338,7 +361,7 @@
 	
 	<!-- footer section start -->
     <footer>
-        <span>Created By Sravya Yepuri</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By Sravya Yepuri</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 	
 	<script src="myscript.js"></script>
