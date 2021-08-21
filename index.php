@@ -42,8 +42,10 @@
 						<center><a href="#contact">Hire me</a></center>
 					</div>
 				</div>
-            </div>
+            		</div>
 		</section>
+	
+	HI BYE TESTING
 		
 		<!-- about section start -->
 		<section class="about" id="about">
