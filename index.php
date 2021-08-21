@@ -45,8 +45,6 @@
             		</div>
 		</section>
 	
-	HI BYE TESTING
-		
 		<!-- about section start -->
 		<section class="about" id="about">
 			<div class="max-width">
@@ -70,6 +68,7 @@
 								<a href="https://twitter.com/SravyaYepuri" class="link"><i class="fab fa-twitter"></i></a>
 							</li-->
 							&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+							HI BYE TESTING
 							<a href="https://github.com/Shravsssss" class="link"><i class="fab fa-github"></i></a>&emsp;&emsp;
 							<a href="https://www.linkedin.com/in/sravya-yepuri-9170a5211" class="link"><i class="fab fa-linkedin"></i></a>&emsp;&emsp;
 							<a href="https://twitter.com/SravyaYepuri" class="link"><i class="fab fa-twitter"></i></a>
