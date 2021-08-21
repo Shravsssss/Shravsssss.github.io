@@ -11,7 +11,7 @@
 	
 	<body>
 		<div class="scroll-up-btn">
-			<i class="fas fa-angle-up"><a href="#"/></i>
+			<a href="#"><i class="fas fa-angle-up"></a></i>
 		</div>
 		<nav class="navbar">
 			<div class="max-width">
@@ -68,7 +68,6 @@
 								<a href="https://twitter.com/SravyaYepuri" class="link"><i class="fab fa-twitter"></i></a>
 							</li-->
 							&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-							HI BYE TESTING
 							<a href="https://github.com/Shravsssss" class="link"><i class="fab fa-github"></i></a>&emsp;&emsp;
 							<a href="https://www.linkedin.com/in/sravya-yepuri-9170a5211" class="link"><i class="fab fa-linkedin"></i></a>&emsp;&emsp;
 							<a href="https://twitter.com/SravyaYepuri" class="link"><i class="fab fa-twitter"></i></a>
