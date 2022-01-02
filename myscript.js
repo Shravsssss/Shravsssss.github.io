@@ -90,7 +90,7 @@ $(document).ready(function(){
                 $errorBox = $('.error-box');
                 $('.send-msg').text("Send message");
                 $('.contact-form').removeClass("disable");
-                if(data == "success"){
+                if(data){
                     $fullname = $('.fullname').val("");
                     $email = $('.email-input').val("");
                     $subject = $('.subject').val("");
