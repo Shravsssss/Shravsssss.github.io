@@ -363,10 +363,10 @@ section .title::after{
     background: #9999ff;
 }
 .skills-content .right .hcpj::before{
-    width: 80%;
+    width: 75%;
 }
 .skills-content .right .mysql::before{
-    width: 75%;
+    width: 80%;
 }
 .skills-content .right .python::before{
     width: 85%;
@@ -380,11 +380,11 @@ section .title::after{
 .skills-content .right .matlab::before{
     width: 90%;
 }
-.skills-content .right .ml::before{
-    width: 80%;
+.skills-content .right .hsss::before{
+    width: 75%;
 }
-.skills-content .right .data::before{
-    width: 80%;
+.skills-content .right .mern::before{
+    width: 70%;
 }
 
 /* courses section styling */
