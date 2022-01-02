@@ -130,8 +130,8 @@
 				<h2 class="title">My Skills</h2>
 				<div class="skills-content">
 					<div class="column left">
-						<div class="text">My creative skills & experiences.</div>
-						<p> ummmmmmmm eating </p>
+						<div class="text">My tech skills</div>
+						<p> These are some of the skills I've learnt so far :) </p>
 						<!--<a href="#">Read more</a>-->
 					</div>
 					<div class="column right">
@@ -139,14 +139,14 @@
 						<div class="bars">
 							<div class="info">
 								<span>HTML, CSS, PHP and JS</span>
-								<span>80%</span>
+								<span>75%</span>
 							</div>
 							<div class="line hcpj"></div>
 						</div>
 						<div class="bars">
 							<div class="info">
-								<span>MySQL</span>
-								<span>75%</span>
+								<span>PostgreSQL</span>
+								<span>80%</span>
 							</div>
 							<div class="line mysql"></div>
 						</div>
@@ -180,19 +180,18 @@
 						</div>
 						<div class="bars">
 							<div class="info">
-								<span>Machine Learning</span>
-								<span>80%</span>
+								<span>Hadoop, Spark and Spark Streaming</span>
+								<span>75%</span>
 							</div>
-							<div class="line ml"></div>
+							<div class="line hsss"></div>
 						</div>
 						<div class="bars">
 							<div class="info">
-								<span>Data Analysis</span>
-								<span>80%</span>
+								<span>MERN Stack</span>
+								<span>70%</span>
 							</div>
-							<div class="line data"></div>
-						</div>
-												
+							<div class="line mern"></div>
+						</div>												
 					</div>
 				</div>
 			</div>
