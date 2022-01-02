@@ -350,7 +350,7 @@
 							</div>
 							<div class="button-area">
 								<button class="send-msg" type="submit" name="send">Send message</button>
-								<div class="error-box"></div>
+								<!--div class="error-box"></div-->
 							</div>
 												
 						</form>
