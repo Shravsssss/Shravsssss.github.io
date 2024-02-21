@@ -35,9 +35,20 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .projects, .skills, .courses, .experience, .contact, footer{
+.about, .projects, .skills, .certifications, .experience, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
+
+.skills .skills{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 .about .about-content,
 .projects .projects-content,
 .skills .skills-content,
@@ -258,16 +269,16 @@ section .title::after{
 }
 
 /* projects section styling */
-.projects, .courses{
+.projects, .certifications{
     color:#fff;
     background: #111;
 }
 .projects .title::before,
-.courses .title::before{
+.certifications .title::before{
     background: #fff;
 }
 .projects .title::after,
-.courses .title::after{
+.certifications .title::after{
     background: #111;
     content: "what i built";
 }
@@ -306,7 +317,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what i learnt";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -348,6 +359,11 @@ section .title::after{
     font-weight: 500;
     font-size: 18px;
 }
+.skills .skills-content .right .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
@@ -387,11 +403,11 @@ section .title::after{
     width: 70%;
 }
 
-/* courses section styling */
-.courses .title::after{
+/* certifications section styling */
+.certifications .title::after{
     content: "what i did";
 }
-.courses .carousel .card{
+.certifications .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -399,25 +415,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.courses .carousel .card:hover{
+.certifications .carousel .card:hover{
     background: #9999ff;
 }
-.courses .carousel .card .box{
+.certifications .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.courses .carousel .card:hover .box{
+.certifications .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.courses .carousel .card .text{
+.certifications .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.courses .carousel .card img{
+.certifications .carousel .card img{
     height: 150px;
     width: 300px;
     object-fit: cover;
@@ -425,7 +441,7 @@ section .title::after{
     border: #4d4dff;
     transition: all 0.3s ease;
 }
-.courses .carousel .card:hover img{
+.certifications .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -449,6 +465,81 @@ section .title::after{
 .owl-dot:hover{
     background: #9999ff!important;
 }
+
+
+/* Publications section styling */
+.publications {
+    background: #111;
+    color: #fff;
+    padding: 100px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.publications .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.publications .title::before{
+    background: #fff;
+    width: 220px;
+}
+.publications .title::after{
+    background: #111;
+    content: "what i researched";
+}
+.publications-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.publication {
+    width: calc(50% - 30px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px 25px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.publication:hover {
+    background: #9999ff;
+}
+
+.publication h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.publication p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.publication a {
+    display: inline-block;
+    background: #9999ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.publication a:hover {
+    background: none;
+    color: #000000;
+}
+
+
 
 /* contact section styling */
 .contact .title::after{
@@ -704,11 +795,3 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-
-
-
-
-
-
-
-
