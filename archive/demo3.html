@@ -6,7 +6,7 @@
     <title>Sravya Yepuri - Interactive Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile-styles.css">
@@ -16,9 +16,9 @@
     <nav class="top-nav">
         <div class="nav-brand">Sravya Yepuri</div>
         <div class="nav-links">
-            <a href="#" data-section="0">Home</a>
-            <a href="#" data-section="1">About</a>
-            <a href="#" data-section="2">Experience</a>
+            <a href="#" data-section="0">About</a>
+            <a href="#" data-section="1">Code</a>
+            <a href="#" data-section="2">Journey</a>
             <a href="#" data-section="3">Projects</a>
             <a href="#" data-section="4">Certifications</a>
             <a href="#" data-section="5">Publications</a>
@@ -34,9 +34,9 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu">
         <div class="mobile-menu-links">
-            <a href="#" data-section="0">Home</a>
-            <a href="#" data-section="1">About</a>
-            <a href="#" data-section="2">Experience</a>
+            <a href="#" data-section="0">About</a>
+            <a href="#" data-section="1">Code</a>
+            <a href="#" data-section="2">Journey</a>
             <a href="#" data-section="3">Projects</a>
             <a href="#" data-section="4">Certifications</a>
             <a href="#" data-section="5">Publications</a>
@@ -45,11 +45,11 @@
     </div>
 
 
-    <!-- Ultra Smooth Background Wrapper -->
-    <div class="background-wrapper">
-        <div class="gradient-layer gradient-primary" id="gradient1"></div>
-        <div class="gradient-layer gradient-secondary" id="gradient2"></div>
-    </div>
+    <!-- Background Container for smooth transitions -->
+    <div class="background-container" id="bg-container"></div>
+    
+    <!-- Background Particles -->
+    <div class="particles" id="particles"></div>
 
     <!-- Main Container -->
     <div class="sections-container">
@@ -63,15 +63,7 @@
                         <div class="image-overlay"></div>
                     </div>
                     <div class="about-text">
-						</br>
-						</br>
-						</br>						
-						</br>
-						</br>
-						</br>
-						</br>						
-						</br>
-                        <h1 class="poetry-line">Sravya Yepuri</h1>
+                        <h1 class="poetry-line">CS Obsessed</h1>
                         <p class="about-description">
                             Earned my Master's from NC State University and now applying my skills as an SDE at Applied Contexts Consulting, building on my foundational Bachelor's degree from PES University.
                             <br><br>
@@ -367,7 +359,7 @@
         <!-- Section 5: Publications -->
         <section class="section" id="publications">
             <div class="pub-container">
-                <h2 class="section-title">Research Publications</h2>
+                <h2 class="section-title">Research & Publications</h2>
                 <div class="pub-cards">
                     <div class="pub-card">
                         <div class="pub-icon">
@@ -405,8 +397,13 @@
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
                                 <div>
+                                    <span>syepuri@ncsu.edu</span>
                                     <span>sravyayepuri02@gmail.com</span>
                                 </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (689) 291-9110</span>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-map-marker-alt"></i>

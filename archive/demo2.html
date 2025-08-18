@@ -6,7 +6,7 @@
     <title>Sravya Yepuri - Interactive Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile-styles.css">
@@ -16,9 +16,9 @@
     <nav class="top-nav">
         <div class="nav-brand">Sravya Yepuri</div>
         <div class="nav-links">
-            <a href="#" data-section="0">Home</a>
-            <a href="#" data-section="1">About</a>
-            <a href="#" data-section="2">Experience</a>
+            <a href="#" data-section="0">About</a>
+            <a href="#" data-section="1">Code</a>
+            <a href="#" data-section="2">Journey</a>
             <a href="#" data-section="3">Projects</a>
             <a href="#" data-section="4">Certifications</a>
             <a href="#" data-section="5">Publications</a>
@@ -34,9 +34,9 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu">
         <div class="mobile-menu-links">
-            <a href="#" data-section="0">Home</a>
-            <a href="#" data-section="1">About</a>
-            <a href="#" data-section="2">Experience</a>
+            <a href="#" data-section="0">About</a>
+            <a href="#" data-section="1">Code</a>
+            <a href="#" data-section="2">Journey</a>
             <a href="#" data-section="3">Projects</a>
             <a href="#" data-section="4">Certifications</a>
             <a href="#" data-section="5">Publications</a>
@@ -44,12 +44,22 @@
         </div>
     </div>
 
+    <!-- Navigation Dots -->
+    <nav class="nav-dots">
+        <div class="nav-dot active" data-section="0"></div>
+        <div class="nav-dot" data-section="1"></div>
+        <div class="nav-dot" data-section="2"></div>
+        <div class="nav-dot" data-section="3"></div>
+        <div class="nav-dot" data-section="4"></div>
+        <div class="nav-dot" data-section="5"></div>
+        <div class="nav-dot" data-section="6"></div>
+    </nav>
 
-    <!-- Ultra Smooth Background Wrapper -->
-    <div class="background-wrapper">
-        <div class="gradient-layer gradient-primary" id="gradient1"></div>
-        <div class="gradient-layer gradient-secondary" id="gradient2"></div>
-    </div>
+    <!-- Background Container for smooth transitions -->
+    <div class="background-container" id="bg-container"></div>
+    
+    <!-- Background Particles -->
+    <div class="particles" id="particles"></div>
 
     <!-- Main Container -->
     <div class="sections-container">
@@ -63,15 +73,7 @@
                         <div class="image-overlay"></div>
                     </div>
                     <div class="about-text">
-						</br>
-						</br>
-						</br>						
-						</br>
-						</br>
-						</br>
-						</br>						
-						</br>
-                        <h1 class="poetry-line">Sravya Yepuri</h1>
+                        <h1 class="poetry-line">CS Obsessed</h1>
                         <p class="about-description">
                             Earned my Master's from NC State University and now applying my skills as an SDE at Applied Contexts Consulting, building on my foundational Bachelor's degree from PES University.
                             <br><br>
@@ -143,99 +145,94 @@
             <div class="combined-container">
                 <h2 class="section-title">Professional Journey & Tech Stack</h2>
                 
-                <div class="experience-skills-grid">
-                    <!-- Experience Timeline - Left Side -->
-                    <div class="timeline-section">
-                        <h3 class="subsection-title">Experience</h3>
-                        <div class="timeline-cards">
-                            <div class="glass-card">
-                                <div class="card-content">
-                                    <h3>Cloud Developer Intern</h3>
-                                    <h4>Hewlett Packard Enterprise</h4>
-                                    <p>Monitored 1000+ microservices using AWS, Grafana, Prometheus. Led team to 1st place in automation hackathon.</p>
-                                </div>
+                <!-- Experience Timeline -->
+                <div class="timeline-section">
+                    <h3 class="subsection-title">Experience</h3>
+                    <div class="timeline-cards">
+                        <div class="glass-card">
+                            <div class="card-content">
+                                <h3>Cloud Developer Intern</h3>
+                                <h4>Hewlett Packard Enterprise</h4>
+                                <p>Monitored 1000+ microservices using AWS, Grafana, Prometheus. Led team to 1st place in automation hackathon.</p>
                             </div>
-                            <div class="glass-card">
-                                <div class="card-content">
-                                    <h3>R&D Intern - ML</h3>
-                                    <h4>CSIR Fourth Paradigm Institute</h4>
-                                    <p>Developed ML models to detect AML and NHL in blood cells. Published paper at IITCEE 2023.</p>
-                                </div>
+                        </div>
+                        <div class="glass-card">
+                            <div class="card-content">
+                                <h3>R&D Intern - ML</h3>
+                                <h4>CSIR Fourth Paradigm Institute</h4>
+                                <p>Developed ML models to detect AML and NHL in blood cells. Published paper at IITCEE 2023.</p>
                             </div>
-                            <div class="glass-card">
-                                <div class="card-content">
-                                    <h3>MAE Grader</h3>
-                                    <h4>NC State University</h4>
-                                    <p>Supported AI course instruction, drafted ML homeworks, maintained grading standards.</p>
-                                </div>
+                        </div>
+                        <div class="glass-card">
+                            <div class="card-content">
+                                <h3>MAE Grader</h3>
+                                <h4>NC State University</h4>
+                                <p>Supported AI course instruction, drafted ML homeworks, maintained grading standards.</p>
                             </div>
-                            <div class="glass-card">
-                                <div class="card-content">
-                                    <h3>R&D Intern - CV</h3>
-                                    <h4>CSIR National Aerospace Labs</h4>
-                                    <p>Created CV algorithms for driver fatigue detection using PERCLOS, MOR, and HBR metrics.</p>
-                                </div>
+                        </div>
+                        <div class="glass-card">
+                            <div class="card-content">
+                                <h3>R&D Intern - CV</h3>
+                                <h4>CSIR National Aerospace Labs</h4>
+                                <p>Created CV algorithms for driver fatigue detection using PERCLOS, MOR, and HBR metrics.</p>
                             </div>
-                            <div class="glass-card">
-                                <div class="card-content">
-                                    <h3>Web Dev Intern</h3>
-                                    <h4>CSIR National Aerospace Labs</h4>
-                                    <p>Developed interactive web app demonstrating triangulation for surveying concepts.</p>
-                                </div>
+                        </div>
+                        <div class="glass-card">
+                            <div class="card-content">
+                                <h3>Web Dev Intern</h3>
+                                <h4>CSIR National Aerospace Labs</h4>
+                                <p>Developed interactive web app demonstrating triangulation for surveying concepts.</p>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Skills Grid - Right Side -->
-                    <div class="skills-section">
-                        <h3 class="subsection-title">Technical Skills</h3>
-                        <div class="skills-grid">
-                            <div class="skill-category">
-                                <h4>Languages</h4>
-                                <div class="skill-bubbles">
-                                    <div class="skill-bubble" data-skill="python">Python</div>
-                                    <div class="skill-bubble" data-skill="javascript">JavaScript</div>
-                                    <div class="skill-bubble" data-skill="java">Java</div>
-                                    <div class="skill-bubble" data-skill="c">C/C++</div>
-                                    <div class="skill-bubble" data-skill="r">R</div>
-                                    <div class="skill-bubble" data-skill="ruby">Ruby</div>
-                                </div>
+                </div>
+                
+                <!-- Skills Grid -->
+                <div class="skills-section">
+                    <h3 class="subsection-title">Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-bubbles">
+                                <div class="skill-bubble" data-skill="python">Python</div>
+                                <div class="skill-bubble" data-skill="javascript">JavaScript</div>
+                                <div class="skill-bubble" data-skill="java">Java</div>
+                                <div class="skill-bubble" data-skill="c">C/C++</div>
+                                <div class="skill-bubble" data-skill="r">R</div>
+                                <div class="skill-bubble" data-skill="ruby">Ruby</div>
                             </div>
-                            
-                            <div class="skill-category">
-                                <h4>Cloud & DevOps</h4>
-                                <div class="skill-bubbles">
-                                    <div class="skill-bubble" data-skill="aws">AWS</div>
-                                    <div class="skill-bubble" data-skill="gcp">Google Cloud</div>
-                                    <div class="skill-bubble" data-skill="docker">Docker</div>
-                                    <div class="skill-bubble" data-skill="kubernetes">Kubernetes</div>
-                                    <div class="skill-bubble" data-skill="kafka">Kafka</div>
-                                    <div class="skill-bubble" data-skill="helm">Helm</div>
-                                </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Cloud & DevOps</h4>
+                            <div class="skill-bubbles">
+                                <div class="skill-bubble" data-skill="aws">AWS</div>
+                                <div class="skill-bubble" data-skill="gcp">Google Cloud</div>
+                                <div class="skill-bubble" data-skill="docker">Docker</div>
+                                <div class="skill-bubble" data-skill="kubernetes">Kubernetes</div>
+                                <div class="skill-bubble" data-skill="kafka">Kafka</div>
+                                <div class="skill-bubble" data-skill="helm">Helm</div>
                             </div>
-                            
-                            <div class="skill-category">
-                                <h4>Frameworks</h4>
-                                <div class="skill-bubbles">
-                                    <div class="skill-bubble" data-skill="react">React</div>
-                                    <div class="skill-bubble" data-skill="nodejs">Node.js</div>
-                                    <div class="skill-bubble" data-skill="flask">Flask</div>
-                                    <div class="skill-bubble" data-skill="fastapi">FastAPI</div>
-                                    <div class="skill-bubble" data-skill="tensorflow">TensorFlow</div>
-                                    <div class="skill-bubble" data-skill="spark">Spark</div>
-                                </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Frameworks</h4>
+                            <div class="skill-bubbles">
+                                <div class="skill-bubble" data-skill="react">React</div>
+                                <div class="skill-bubble" data-skill="nodejs">Node.js</div>
+                                <div class="skill-bubble" data-skill="flask">Flask</div>
+                                <div class="skill-bubble" data-skill="fastapi">FastAPI</div>
+                                <div class="skill-bubble" data-skill="tensorflow">TensorFlow</div>
+                                <div class="skill-bubble" data-skill="spark">Spark</div>
                             </div>
-                            
-                            <div class="skill-category">
-                                <h4>Databases</h4>
-                                <div class="skill-bubbles">
-                                    <div class="skill-bubble" data-skill="mysql">MySQL</div>
-                                    <div class="skill-bubble" data-skill="mongodb">MongoDB</div>
-                                    <div class="skill-bubble" data-skill="postgresql">PostgreSQL</div>
-                                    <div class="skill-bubble" data-skill="neo4j">Neo4j</div>
-                                    <div class="skill-bubble" data-skill="grafana">Grafana</div>
-                                    <div class="skill-bubble" data-skill="prometheus">Prometheus</div>
-                                </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Databases</h4>
+                            <div class="skill-bubbles">
+                                <div class="skill-bubble" data-skill="mysql">MySQL</div>
+                                <div class="skill-bubble" data-skill="mongodb">MongoDB</div>
+                                <div class="skill-bubble" data-skill="postgresql">PostgreSQL</div>
+                                <div class="skill-bubble" data-skill="neo4j">Neo4j</div>
+                                <div class="skill-bubble" data-skill="grafana">Grafana</div>
+                                <div class="skill-bubble" data-skill="prometheus">Prometheus</div>
                             </div>
                         </div>
                     </div>
@@ -367,7 +364,7 @@
         <!-- Section 5: Publications -->
         <section class="section" id="publications">
             <div class="pub-container">
-                <h2 class="section-title">Research Publications</h2>
+                <h2 class="section-title">Research & Publications</h2>
                 <div class="pub-cards">
                     <div class="pub-card">
                         <div class="pub-icon">
@@ -405,8 +402,13 @@
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
                                 <div>
+                                    <span>syepuri@ncsu.edu</span>
                                     <span>sravyayepuri02@gmail.com</span>
                                 </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (689) 291-9110</span>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-map-marker-alt"></i>

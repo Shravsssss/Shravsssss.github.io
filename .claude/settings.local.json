@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(start index.html)",
+      "WebFetch(domain:www.reddit.com)",
+      "Bash(explorer.exe:*)",
+      "Bash(cmd.exe /c start index.html)",
+      "WebFetch(domain:www.cedilla.studio)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
